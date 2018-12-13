@@ -74,7 +74,7 @@ butn_3=Button(main_window,
 
 
 def Malware():
-    p = print('returned value:', malware())
+    print('returned value:', malware())
 butn_4=Button(main_window, 
             text="Malware Remove",
             bg="#F7F0F0" ,
