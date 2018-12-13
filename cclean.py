@@ -20,8 +20,6 @@ def ccleaner():
     rTup = pObj.communicate()
     rCod = pObj.returncode
     if rCod == 0:
-        messagebox.showinfo('Output', 'Success: Cleaned Windows Temp Folder !!!')
         print ("Success: Cleaned Windows Temp Folder")
     else:
-        messagebox.showinfo('Output', 'Fail: Unable to Clean Windows Temp Folder !!!')
         print ("Fail: Unable to Clean Windows Temp Folder")

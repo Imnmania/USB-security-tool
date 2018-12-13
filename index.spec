@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['index.py'],
-             pathex=['/media/niloy/Anime/Study/CSE 323/Project/USB security tool'],
+             pathex=['G:\\Study\\CSE 323\\Project\\USB security tool'],
              binaries=[],
              datas=[],
              hiddenimports=[],
